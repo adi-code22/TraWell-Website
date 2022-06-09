@@ -8,6 +8,7 @@
     overflow:hidden;
 }
 .shopcard-wrapper{
+    position: relative;
     width:250px;
     height:300px;
     background:rgba(0,0,0,0.5);
