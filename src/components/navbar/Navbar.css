@@ -1,0 +1,35 @@
+.header-logo {
+  width: 100px;
+  height: auto;
+}
+.header-links {
+  color: #3e97c9;
+  text-decoration: none;
+  font-weight:bolder
+}
+.header {
+  display: grid;
+  grid-auto-flow: column;
+  background-color: rgba(0, 0, 0);
+  height:fit-content;
+}
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  place-items: center;
+  width: 100%;
+  height: 100%;
+}
+.list-container {
+    width:100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  grid-column: 2/6;
+}
+.map-logo {
+  color: #3e97c9;
+  font-size: 1.5rem;
+  margin:auto;
+
+}
