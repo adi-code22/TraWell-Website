@@ -1,0 +1,18 @@
+.footer-wrapper{
+    width:100%;
+    height:fit-content;
+    padding:20px;
+    background:black;
+    display: flex;
+    flex-direction: column;;
+}
+.footer-logo{
+    width:150px;
+    height:auto;
+}
+.copyright{
+    width:100%;
+    height:fit-content;
+    text-align: center;
+    color:white;
+}

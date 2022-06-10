@@ -1,29 +1,28 @@
 .home-wrapper{
     width:100%;
     height:100vh;
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-    place-items: center;
+    display:flex;
+    align-items: center;
+    background:url(https://www.cheapestdestinationsblog.com/wp-content/uploads/2020/11/kerala-backwaters-abhishek-prasad-unsplash.jpg.webp) center no-repeat;
+    background-size: cover;
+    background-color:rgba(0,0,0,0.5);
+    background-blend-mode: color;
+    background-attachment: fixed;
 
 }
-.places-wrapper{
-    width:250px;
-    height:300px;
-    background:rgba(0,0,0,0.5);
-    border-radius:20px;
+.welcome-text-wrapper{
+    margin-left:50px;
+    color:white;
+    width:30%;
+    height:100%;
     display:flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    color:aliceblue;
-    padding:5px;
+    justify-content: center;
+    gap:30px;
+}
+.home-wrapper>div>h1{
+    color:white;
+    font-size:4em;
+    font-weight:900;
+}
 
-}
-.map-link{
-    text-decoration: none;
-    color:#EDB3FF;
-    background-color:black;
-    padding:5px;
-    border-radius: 20px;
-    
-}

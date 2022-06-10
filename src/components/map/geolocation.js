@@ -1,9 +1,12 @@
 import React from "react";
 import { useGeolocated } from "react-geolocated";
 import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
-import demos from "./mapdataagain.json";
+import {places} from './restaurants';
+import { Icon } from "leaflet";
+import './Map.css'
 
 const Demo = () => {
+  
   const { coords, isGeolocationAvailable, isGeolocationEnabled } =
     useGeolocated({
       positionOptions: {
@@ -17,20 +20,21 @@ const Demo = () => {
   ) : !isGeolocationEnabled ? (
     <div>Geolocation is not enabled</div>
   ) : coords ? (
-    <div className="map-wrapper">
-    {console.log(coords.latitude)}
-    {console.log(coords.longitude)}
-      <MapContainer center={[coords.latitude, coords.longitude]} zoom={10} scrollWheelZoom={true}>
+    <div className="map-wrapper" id="map">
+      <MapContainer
+        center={[coords.latitude, coords.longitude]}
+        zoom={7}
+        scrollWheelZoom={false}
+      >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-
-        {demos.map((demo) => (
-          <Marker key={demo.id} position={[coords.latitude, coords.longitude]}>
+        <Marker position={[coords.latitude, coords.longitude]}></Marker>
+        {places.map((place) => (
+          <Marker position={[place.latitude, place.longitude]}>
             <Popup>
-              <img src={demo.image} className="popup-image"></img>
-              <h4>{demo.name}</h4>
+              <h1>{place.name}</h1>
             </Popup>
           </Marker>
         ))}

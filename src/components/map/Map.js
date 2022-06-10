@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
 import "./Map.css";
-import demos from "./mapdataagain.json";
 import Demo from './geolocation'
 
 export default function Map() {
@@ -13,14 +12,14 @@ export default function Map() {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
 
-        {demos.map((demo) => (
+        {/* {demos.map((demo) => (
           <Marker key={demo.id} position={[demo.latitude, demo.longitude]}>
             <Popup>
               <img src={demo.image} className="popup-image"></img>
               <h4>{demo.name}</h4>
             </Popup>
           </Marker>
-        ))}
+        ))} */}
       </MapContainer>
     </div>
   );

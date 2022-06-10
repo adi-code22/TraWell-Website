@@ -10,24 +10,24 @@ export default function Navbar() {
       <nav className="navigation">
         <ul className="list-container">
           <li>
-            <a href="#" className="header-links">
+            <a href="#home" className="header-links">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="header-links">
+            <a href="#shop" className="header-links">
               Shop
             </a>
           </li>
           <li>
-            <a href="#" className="header-links">
-              About us
+            <a href="#addproducts" className="header-links">
+              Add products
             </a>
           </li>
         </ul>
         <ul style={{listStyle:"none",gridColumn:"8/-1",borderRadius:"50%",backgroundColor:"#233f8e",width:"50px",height:"50px",display:"grid",placeItems:"center"}}>
           <li>
-            <a href="#" className="header-links map-logo">
+            <a href="#map" className="header-links map-logo">
               <GoLocation />
             </a>
           </li>
