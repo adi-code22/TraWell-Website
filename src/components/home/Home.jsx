@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div className="home-wrapper" id="home">
   
-    <div className="welcome-text-wrapper"><h1>Welcome to <br></br>trawell</h1>
-    <p>here to get you there . . .</p></div>
+    <div className="welcome-text-wrapper"><h1>Welcome to <br></br>TraWell</h1>
+    <p>Here to get you there . . .</p></div>
     <div style={{width:"80%", height:"100%",display:"flex", alignItems:"center",justifyContent:"center" }}><img src={kerala} style={{height:"800px"}}></img></div>
     <a href="#"><FcAndroidOs /></a>
       
