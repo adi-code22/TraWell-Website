@@ -6,7 +6,8 @@
     padding:10px;
     gap:100px;
     overflow-y:scroll;
-    background-color:black
+    background-color:black;
+    padding:30px;
 }
 .shopcard-wrapper{
     position: relative;

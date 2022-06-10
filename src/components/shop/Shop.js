@@ -47,7 +47,7 @@ const UsingFetch = () => {
                 }}
               ></img>
               <h4>{item.itemName}</h4>
-              <small><BiRupee />{item.price}</small>
+              <p><BiRupee />{item.price}</p>
               <p>{item.description}</p>
               <small><GoLocation />{item.location}</small>
                 

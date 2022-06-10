@@ -2,10 +2,11 @@ import React from "react";
 import { useGeolocated } from "react-geolocated";
 import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
 import {places} from './restaurants';
-import { Icon } from "leaflet";
+import L from "leaflet";
 import './Map.css'
 
 const Demo = () => {
+
   
   const { coords, isGeolocationAvailable, isGeolocationEnabled } =
     useGeolocated({
@@ -30,9 +31,9 @@ const Demo = () => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={[coords.latitude, coords.longitude]}></Marker>
+        <Marker position={[coords.latitude, coords.longitude]} ></Marker>
         {places.map((place) => (
-          <Marker position={[place.latitude, place.longitude]}>
+          <Marker position={[place.latitude, place.longitude]} >
             <Popup>
               <h1>{place.name}</h1>
             </Popup>

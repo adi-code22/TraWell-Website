@@ -12,7 +12,8 @@
   .form-wrapper{
     width:fit-content;
     height:fit-content;
-    border: 1px solid black;
+    border: 2px solid #3e97c9;
+    background-color: rgba(0,0,0,0.5);
     border-radius: 20px;;
     padding:30px;
   }
@@ -24,6 +25,9 @@
     font-size: 1.1em;
     font-weight: 500;
     margin-bottom: 2rem;
+    border-radius:10px;
+    font-weight: bolder;
+
   }
   button {
     border: none;
@@ -32,6 +36,7 @@
     font-size: 1.2em;
     border-radius: 0.2rem;
     cursor: pointer;
+    font-weight:900;
   }
   button:hover {
     background-color: #c5c5c5;
