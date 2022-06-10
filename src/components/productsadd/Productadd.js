@@ -32,7 +32,9 @@ function Productadd() {
 
   return (
     <div className="input-wrapper" id="addproducts">
-    <div style={{backgroundColor:"transparent"}}><h2>Add Your Products</h2></div>
+      <div style={{ backgroundColor: "transparent" }}>
+        <h2>Add Your Products</h2>
+      </div>
       <form onSubmit={handleSubmit} className="form-wrapper">
         <input
           type="text"
