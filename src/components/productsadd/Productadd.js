@@ -36,30 +36,35 @@ function Productadd() {
         <h2>Add Your Products</h2>
       </div>
       <form onSubmit={handleSubmit} className="form-wrapper">
+        
+          <label>Item Name</label>
         <input
           type="text"
           value={itemName}
           placeholder="item name"
           onChange={(e) => setitemName(e.target.value)}
         />
+        <label>Image URL</label>
         <input
           type="text"
           value={img}
           placeholder="image URL"
           onChange={(e) => setImg(e.target.value)}
-        />
+        /><label>Description</label>
         <input
           type="text"
           value={description}
           placeholder="description"
           onChange={(e) => setDescription(e.target.value)}
         />
+        <label>Location</label>
         <input
           type="text"
           value={location}
           placeholder="location"
           onChange={(e) => setLocation(e.target.value)}
         />
+        <label>Price</label>
         <input
           type="text"
           value={price}
