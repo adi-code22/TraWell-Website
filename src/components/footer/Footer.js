@@ -8,7 +8,7 @@ export default function Footer() {
       <div>
         <img src={logo} className="footer-logo"></img>
       </div>
-      <div className="copyright"><small>copyright 2022; All Right Reserved By traWell</small></div>
+      <div className="copyright"><small style={{fontWeight:"bold"}}>copyright 2022; All Right Reserved By traWell</small></div>
     </footer>
   );
 }

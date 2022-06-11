@@ -1,6 +1,6 @@
 .shop-wrapper{
     width:100%;
-    height:100vh;
+    height:max-content;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     padding:10px;
