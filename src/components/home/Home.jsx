@@ -15,7 +15,7 @@ export default function Home() {
             <div style={{ color: "#233f8e" }}>well</div>
           </div>
         </h1>
-        <p>your AI travel buddy</p>
+        <p>Your smart travel buddy</p>
       </div>
       <div
         style={{

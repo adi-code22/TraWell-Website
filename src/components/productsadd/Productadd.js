@@ -15,7 +15,7 @@ function Productadd() {
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      let res = await fetch("http://192.168.1.53:8080/addItem", {
+      let res = await fetch("http://192.168.211.247:8080/addItem", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
