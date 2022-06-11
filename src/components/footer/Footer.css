@@ -2,7 +2,7 @@
     width:100%;
     height:fit-content;
     padding:20px;
-    background:black;
+    background:white;
     display: flex;
     flex-direction: column;;
 }
@@ -14,5 +14,5 @@
     width:100%;
     height:fit-content;
     text-align: center;
-    color:white;
+    color:#3e97c9;
 }

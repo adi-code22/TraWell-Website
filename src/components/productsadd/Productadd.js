@@ -2,6 +2,7 @@
 
 import "./Productadd.css";
 import { useState } from "react";
+import ip from '../../ip'
 
 function Productadd() {
   const [itemName, setitemName] = useState(" ");
@@ -33,7 +34,7 @@ function Productadd() {
   return (
     <div className="input-wrapper" id="addproducts">
       <div style={{ backgroundColor: "transparent" }}>
-        <h2>Add Your Products</h2>
+      <h2 style={{fontSize:"2rem" ,color:"white"}}><div style={{display:"flex"}}><div style={{color:"#3e97c9"}}>Add </div><div style={{color:"#233f8e"}}>Products</div></div></h2>
       </div>
       <form onSubmit={handleSubmit} className="form-wrapper">
         

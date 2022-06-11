@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../images/true.png";
+import logo from "../../images/trawell .png";
 import { GoLocation } from "react-icons/go";
 
 export default function Navbar() {
@@ -15,8 +15,13 @@ export default function Navbar() {
             </a>
           </li>
           <li>
+            <a href="#travelcard" className="header-links">
+              Travel card
+            </a>
+          </li>
+          <li>
             <a href="#shop" className="header-links">
-              Shop
+              NativeShop
             </a>
           </li>
           <li>
@@ -25,7 +30,18 @@ export default function Navbar() {
             </a>
           </li>
         </ul>
-        <ul style={{listStyle:"none",gridColumn:"8/-1",borderRadius:"50%",backgroundColor:"#233f8e",width:"50px",height:"50px",display:"grid",placeItems:"center"}}>
+        <ul
+          style={{
+            listStyle: "none",
+            gridColumn: "8/-1",
+            borderRadius: "50%",
+            backgroundColor: "#233f8e",
+            width: "50px",
+            height: "50px",
+            display: "grid",
+            placeItems: "center",
+          }}
+        >
           <li>
             <a href="#map" className="header-links map-logo">
               <GoLocation />

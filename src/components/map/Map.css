@@ -6,8 +6,9 @@
     height:100vh;
 }
 .leaflet-container{
-    width:100%;
-    height:100vh;
+    width:90%;
+    height:70vh;
+    border-radius: 20px;
 }
 .popup-image{
     width:250px;
