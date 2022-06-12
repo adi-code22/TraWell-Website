@@ -15,7 +15,6 @@ function App() {
       <Travelcard />
       <Shop />
       <Productadd />
-      
       <Demo />
       <Footer />
     </div>

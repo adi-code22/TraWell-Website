@@ -16,7 +16,7 @@ export default function Travelcard() {
             placeItems: "center",
           }}
         >
-          <img src={travelcard} className="travelcard-img"></img>
+          <img src={travelcard} className="travelcard-img" alt="travelcard image"></img>
         </div>
         <div
           style={{

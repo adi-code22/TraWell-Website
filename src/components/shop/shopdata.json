@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "62a18fdfbbae676c034fa4fa",
+    "itemID": "wiIR_ZrH_Te23Z37s6DNw",
+    "itemName": "Bottle",
+    "img": "https://picsum.photos/seed/picsum/200/300",
+    "description": "Water bottle",
+    "location": "Kasargod",
+    "price": 20
+  },
+  {
+    "_id": "62a19192bbae676c034fa501",
+    "itemID": "QEhoAdKkOTaHyyG0VRpjo",
+    "itemName": "Coconut Oil",
+    "img": "https://i.imgur.com/JygABC1.jpeg",
+    "description": "250 ml coconut oil",
+    "location": "Kasargod",
+    "price": 30
+  },
+  {
+    "_id": "62a191b5bbae676c034fa503",
+    "itemID": "Jqr37ZT9veBGyc4HYOLos",
+    "itemName": "Colgate Toothpaste",
+    "img": "https://picsum.photos/seed/picsum/200/300",
+    "description": "250g colgate toothpaste",
+    "location": "Kasargod",
+    "price": 10
+  },
+  {
+    "_id": "62a30cbc648c683bb8db4baa",
+    "itemID": "vOjiScf4w4R4J32xfmrjE",
+    "itemName": " sand art",
+    "img": "https://i.imgur.com/LADcDlK.jpeg",
+    "description": " A creative art",
+    "location": " kudula",
+    "price": 1200
+  },
+  {
+    "_id": "62a30f51648c683bb8db4bb5",
+    "itemID": "9_RCS6FE-tEvK1BbTNvts",
+    "itemName": " pots",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr4XzWqgYlfuc9roXosMvnf1JnkNQC8zDvHw&usqp=CAU",
+    "description": " can be used for a variety of purposes",
+    "location": " Thrissur",
+    "price": 200
+  }
+]
