@@ -27,7 +27,7 @@ export default function Travelcard() {
             justifyContent: "center",
           }}
         >
-          <div style={{width:"90%",height:"100%",display:"flex",alignItems:"center",justifyContent:"space-between"}}>
+          <div style={{width:"90%",height:"100%",display:"flex",alignItems:"center",justifyContent:"space-between",gap:"10px"}}>
             <button>Points earned</button>
             <button>Distance covered</button>
           </div>
