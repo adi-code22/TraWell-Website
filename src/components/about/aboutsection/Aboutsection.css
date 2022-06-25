@@ -1,0 +1,7 @@
+.about-section-wrapper{
+  width:100%;
+  height:fit-content;
+  display: flex;
+  flex-direction: column;
+  padding:50px;
+}
