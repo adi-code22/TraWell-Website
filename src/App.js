@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Productadd from "./components/productsadd/Productadd";
 import Travelcard from "./components/travelcard/Travelcard";
+import About from "./components/about/About";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Travelcard />
       <Shop />
       <Productadd />
+      <About />
       <Demo />
       <Footer />
     </div>

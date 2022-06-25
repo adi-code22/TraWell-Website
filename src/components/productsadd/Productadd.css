@@ -17,6 +17,10 @@
     background-color:#8cd0ef59;
     border-radius: 20px;;
     padding:30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1px;
   }
   input {
     display: block;
@@ -50,4 +54,5 @@
   label{
     color:#233f8e;
     font-weight: bold;
+    align-self: flex-start;
   }
