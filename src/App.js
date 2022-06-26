@@ -22,7 +22,6 @@ function App() {
         <div className="App">
           <Navbar />
           <Home />
-          <Loading />
           <Travelcard />
           <Shop />
           <Productadd />
