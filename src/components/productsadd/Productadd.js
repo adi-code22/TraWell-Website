@@ -2,7 +2,6 @@
 
 import "./Productadd.css";
 import { useState } from "react";
-import ip from "../../ip";
 
 function Productadd() {
   const [itemName, setitemName] = useState(" ");

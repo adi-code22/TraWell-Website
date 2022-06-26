@@ -6,7 +6,6 @@
   width: 100%;
   height: fit-content;
   padding: 50px;
-  /* background-color: rgba(0, 0, 0, 0.1); */
   border-radius: 40px;
 }
 .aboutcard-wrapper-reverse {
@@ -18,9 +17,8 @@
   display: grid;
   place-items: center;
 }
-
 .shadow-div {
-  width:fit-content;
+  width: fit-content;
   height: fit-content;
   position: relative;
 }
@@ -29,22 +27,18 @@
   position: absolute;
   border-radius: 40px;
   z-index: -1;
-
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background: linear-gradient(45deg, #3e97c9, #233f8e);
-  filter: blur(20px);
+  filter: blur(10px);
 }
 .about-card-image {
   border-radius: 40px;
   height: 500px;
   width: auto;
   transition: all 200ms ease 0s;
-}
-.about-card-image:hover{
-  transform: scale(1.2);
 }
 .description-wrapper {
   width: 100%;
@@ -56,9 +50,18 @@
 }
 .description-text-wrapper {
   text-align: center;
+  display:grid;
+  gap:10px;
   width: 100%;
 }
-.description-text-wrapper > p {
-  line-height: 50px;
+.question{
   font-size: 1.5rem;
+  font-weight: 800;
+  color:#8cd0ef59;
+  color:#233f8e;
+}
+.description-text-wrapper > p {
+  line-height: 40px;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
